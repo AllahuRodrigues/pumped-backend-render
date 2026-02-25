@@ -1,0 +1,7 @@
+#!/Users/allahurodrigues/Desktop/Desktop/My-Desk/Yale/Yale-Junior/Spring-Semester/CPSC-439/s26-Pumped/backend/venv/bin/python3.11
+import sys
+from pygments.cmdline import main
+if __name__ == '__main__':
+    if sys.argv[0].endswith('.exe'):
+        sys.argv[0] = sys.argv[0][:-4]
+    sys.exit(main())

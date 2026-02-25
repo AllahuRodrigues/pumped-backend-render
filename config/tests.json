@@ -1,0 +1,17 @@
+{
+  "tests": [
+    {
+      "id": "onboarding_gym_prompt",
+      "name": "Gym join prompt after signup",
+      "description": "Test whether prompting a gym join right after signup increases gym joins within 24h and improves D7 retention.",
+      "variants": ["control", "prompt_required"],
+      "weights": { "control": 0.5, "prompt_required": 0.5 },
+      "defaultVariant": "control",
+      "targetEvent": "gym_joined_within_24h",
+      "isActive": true,
+      "startDate": "2026-02-24",
+      "endDate": "2026-03-10"
+    }
+  ]
+}
+
